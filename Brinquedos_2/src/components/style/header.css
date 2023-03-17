@@ -1,0 +1,66 @@
+.nav-extended{
+    background-color: #eee;
+}
+.logo_principal{
+    width: 70px;
+}
+
+/* DROPDOWN MEN */
+.dp-menu{
+    height: 35px;
+    background-color: #074598;
+}
+
+.dp-menu:hover{
+background-color: 0.10s;
+opacity: 0.9;
+}
+
+.dp-menu ul{
+   list-style-type:none;
+   padding: 0;
+   position: absolute;
+   margin: 2px;
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.dp-menu ul li a{
+    background-color:#074598;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all;
+    
+    
+}
+.dp-menu ul li a:hover{
+    opacity: 0.7;
+}
+/* SUB MENU */
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    
+}
+.dp-menu ul li:hover ul {
+    display: block;  
+    opacity: 1; 
+}
+
+.dp-menu ul ul {
+    width: 150px;
+}
+.dp-menu ul ul li a{
+    display: block;
+  
+}
+
